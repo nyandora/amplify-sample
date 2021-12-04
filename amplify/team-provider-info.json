@@ -28,5 +28,35 @@
         }
       }
     }
+  },
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-boyaki-staging-113316-authRole",
+      "UnauthRoleArn": "arn:aws:iam::150663672265:role/amplify-boyaki-staging-113316-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::150663672265:role/amplify-boyaki-staging-113316-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-boyaki-staging-113316-deployment",
+      "UnauthRoleName": "amplify-boyaki-staging-113316-unauthRole",
+      "StackName": "amplify-boyaki-staging-113316",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:150663672265:stack/amplify-boyaki-staging-113316/8ad410d0-54aa-11ec-ae7e-0a15967a4899",
+      "AmplifyAppId": "d2lppx840luwtn"
+    },
+    "categories": {
+      "auth": {
+        "boyaki6baac5ff": {}
+      },
+      "function": {
+        "createPostAndTimeline": {
+          "deploymentBucketName": "amplify-boyaki-staging-113316-deployment",
+          "s3Key": "amplify-builds/createPostAndTimeline-3374446a4c357a322b75-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2lppx840luwtn",
+          "type": "manual"
+        }
+      }
+    }
   }
 }
