@@ -14,6 +14,8 @@ global.fetch = require('node-fetch');
 let graphqlClient;
 
 exports.handler = async (event, context, callback) => {
+    // dummy
+    
     console.log(event)
     let env;
     let graphql_auth;
