@@ -15,12 +15,6 @@
       "auth": {
         "boyaki6baac5ff": {}
       },
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "d2lppx840luwtn",
-          "type": "manual"
-        }
-      },
       "function": {
         "createPostAndTimeline": {
           "deploymentBucketName": "amplify-boyaki-production-85709-deployment",
@@ -51,12 +45,7 @@
           "s3Key": "amplify-builds/createPostAndTimeline-3374446a4c357a322b75-build.zip"
         }
       },
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "d2lppx840luwtn",
-          "type": "manual"
-        }
-      }
+      "hosting": {}
     }
   }
 }
